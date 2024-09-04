@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flappy Bird Clone</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: #70c5ce; /* Placeholder for background color */
+            font-family: Arial, sans-serif;
+        }
+
+        #controls {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        #controls button {
+            font-size: 20px;
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+            border-radius: 5px;
+            border: none;
+            background-color: #008cba;
+            color: white;
+        }
+
+        #controls button:hover {
+            background-color: #005f5f;
+        }
+
+        canvas {
+            display: block;
+            margin: 20px auto 0;
+            /* width="640";
+            height="1136;" /*
+            /* background: #70c5ce; Placeholder for background color */
+            background: url('./assets/backgoundImage.png') repeat-x; /* Placeholder for background image*/
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    <div id="controls">
+        <button id="startButton">Start</button>
+        <button id="pauseButton">Pause</button>
+    </div>
+    <canvas id="gameCanvas"></canvas>
+
+    <script src="game.js"></script>
+</body>
+</html>
